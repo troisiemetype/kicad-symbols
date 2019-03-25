@@ -1,0 +1,23 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Button
+D Capacitive button
+K capacitive, button, touch, sense
+$ENDCMP
+#
+$CMP Slider3
+D Capacitive slider 3
+K capacitive, slider, sense, touch
+$ENDCMP
+#
+$CMP Slider4
+D Capacitive slider 3
+K capacitive, slider, sense, touch
+$ENDCMP
+#
+$CMP Wheel3
+D Capacitive wheel 3
+K capacitive, wheel, rotor
+$ENDCMP
+#
+#End Doc Library

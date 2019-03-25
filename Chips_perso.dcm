@@ -1,0 +1,59 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX9723-TQFN
+D MAX9723 stereo headphone amplifier
+$ENDCMP
+#
+$CMP MCP73831_2-MC
+D 8-lead DFN LiPo charge management controllerh
+$ENDCMP
+#
+$CMP MCP73831_2-OT
+D 5-lead SOT-23 LiPo charge management controller
+$ENDCMP
+#
+$CMP PCM510xA
+D PCM510xA audio stereo DAC
+K PCM audio stereo DAC
+F http://www.ti.com/lit/ds/symlink/pcm5101a.pdf
+$ENDCMP
+#
+$CMP SSD1306_128x64_OLED_DISPLAY
+D SSD1306 OLED display
+K oled display I2C SPI
+$ENDCMP
+#
+$CMP TPD2E1B06
+D Dual channel high speed ESD protective device
+K ESD, high speed, diode
+$ENDCMP
+#
+$CMP TPS736xx
+D TI TPS736xx low-dropout voltage regulator
+K voltage regulator
+$ENDCMP
+#
+$CMP TSL2591
+D TSL2591 I2C Ambient light sensor
+K I2C light sensor
+F https://ams.com/documents/20143/36005/TSL2591_DS000338_6-00.pdf/090eb50d-bb18-5b45-4938-9b3672f86b80
+$ENDCMP
+#
+$CMP TXS0108EPWR
+D 8-bit bidirectional voltage level translator with auto-direction sensing USON package
+K bidirectional voltage level translator
+F http://www.ti.com/lit/ds/symlink/txb0108.pdf
+$ENDCMP
+#
+$CMP VEML6070
+D UV A light sensor with I2C interface
+K I2C UV light sensor
+F http://www.vishay.com/docs/84277/veml6070.pdf
+$ENDCMP
+#
+$CMP vs1053b
+D VLSI vs1053b
+K audio
+$ENDCMP
+#
+#End Doc Library

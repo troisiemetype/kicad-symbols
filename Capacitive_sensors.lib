@@ -1,0 +1,96 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# Button
+#
+DEF Button CB 0 40 Y Y 1 F N
+F0 "CB" 0 250 60 H V C CNN
+F1 "Button" 0 -250 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+$FPLIST
+ capacitive
+$ENDFPLIST
+DRAW
+C 0 0 200 0 1 0 N
+X 1 1 -300 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Capacitive_ground_mesh
+#
+DEF Capacitive_ground_mesh CP 0 40 Y Y 1 F N
+F0 "CP" 0 250 60 H V C CNN
+F1 "Capacitive_ground_mesh" 0 -250 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S 200 200 -200 -200 0 1 0 N
+X GND 1 -300 0 100 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# Slider3
+#
+DEF Slider3 CS 0 40 Y Y 1 F N
+F0 "CS" 0 500 60 H V C CNN
+F1 "Slider3" 0 -500 60 H V C CNN
+F2 "" -150 0 60 H I C CNN
+F3 "" -150 0 60 H I C CNN
+$FPLIST
+ capacitive*slider
+$ENDFPLIST
+DRAW
+S 0 -150 150 -450 0 1 0 N
+S 0 -150 150 150 0 1 0 N
+S 0 150 150 450 0 1 0 N
+S 150 450 -100 -450 0 1 0 N
+X 1 1 -200 300 100 R 50 50 1 1 P
+X 2 2 -200 0 100 R 50 50 1 1 P
+X 3 3 -200 -300 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Slider4
+#
+DEF Slider4 CS 0 40 Y Y 1 F N
+F0 "CS" 0 650 60 H V C CNN
+F1 "Slider4" 0 -650 60 H V C CNN
+F2 "" -150 150 60 H I C CNN
+F3 "" -150 150 60 H I C CNN
+$FPLIST
+ capacitive*slider
+$ENDFPLIST
+DRAW
+S 0 0 150 -300 0 1 0 N
+S 0 0 150 300 0 1 0 N
+S 0 300 150 600 0 1 0 N
+S 150 -600 0 -300 0 1 0 N
+S 150 600 -100 -600 0 1 0 N
+X 1 1 -200 450 100 R 50 50 1 1 P
+X 2 2 -200 150 100 R 50 50 1 1 P
+X 3 3 -200 -150 100 R 50 50 1 1 P
+X 4 4 -200 -450 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Wheel3
+#
+DEF Wheel3 CS 0 40 Y Y 1 F N
+F0 "CS" 0 550 60 H V C CNN
+F1 "Wheel3" 0 -550 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+$FPLIST
+ capacitive*wheel
+$ENDFPLIST
+DRAW
+C 0 0 300 0 1 0 N
+C 0 0 500 0 1 0 N
+X 1 1 -600 150 118 R 50 50 1 1 P
+X 2 2 -600 0 100 R 50 50 1 1 P
+X 3 3 -600 -150 118 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
